@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_370279_needit2.test</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>test</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 00:16:59</sys_created_on>
+        <sys_id>0f211a05db12b30002ee6f774896190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_370279_needit2.test</sys_name>
+        <sys_package display_value="needit2" source="x_370279_needit2">4735c613dbcaf30002ee6f77489619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="needit2">4735c613dbcaf30002ee6f77489619d8</sys_scope>
+        <sys_update_name>sys_user_role_0f211a05db12b30002ee6f774896190a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-26 00:16:59</sys_updated_on>
+    </sys_user_role>
+</record_update>

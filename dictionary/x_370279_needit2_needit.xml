@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="needit" max_length="40" name="x_370279_needit2_needit" sizeclass="40" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="40" name="u_other" type="string"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="human resource" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="human resource" sequence="0" value="human resource"/>
+                <element inactive_on_update="false" label="legal" sequence="1" value="legal"/>
+                <element inactive_on_update="false" label="facilities" sequence="2" value="facilities"/>
+                <element inactive_on_update="false" label="your choice" sequence="3" value="your choice"/>
+                <element inactive_on_update="false" label="other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="human resource1" label="what needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="human resource1" sequence="0" value="human resource1"/>
+                <element inactive_on_update="false" label="human resource2" sequence="1" value="human resource2"/>
+                <element inactive_on_update="false" label="legal1" sequence="2" value="legal1"/>
+                <element inactive_on_update="false" label="legal2" sequence="3" value="legal2"/>
+                <element inactive_on_update="false" label="facilities1" sequence="4" value="facilities1"/>
+                <element inactive_on_update="false" label="facilities2" sequence="5" value="facilities2"/>
+                <element inactive_on_update="false" label="your choice1" sequence="6" value="your choice1"/>
+                <element inactive_on_update="false" label="your choice2" sequence="7" value="your choice2"/>
+                <element inactive_on_update="false" label="other" sequence="8" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="when needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve and fulfill NeedIt requests</description>
+        <internal_name>needit_fulfillment</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛needit Record","reference":"x_370279_needit2_needit","reference_display":"needit","type":"reference","base_type":"reference"},{"name":"9a45fce6-da57-4658-839d-359047c0495f.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"9a45fce6-da57-4658-839d-359047c0495f.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"}]</label_cache>
+        <master>true</master>
+        <name> NeedIt Fulfillment</name>
+        <outputs/>
+        <parent_flow display_value=" NeedIt Fulfillment">9f023394db2e330002ee6f7748961966</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-06 14:51:59</sys_created_on>
+        <sys_id>4969bcecdbae330002ee6f7748961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> NeedIt Fulfillment</sys_name>
+        <sys_package display_value="needit2" source="x_370279_needit2">4735c613dbcaf30002ee6f77489619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="needit2">4735c613dbcaf30002ee6f77489619d8</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_4969bcecdbae330002ee6f7748961985</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-06 14:51:59</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4969bcecdbae330002ee6f7748961985"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4969bcecdbae330002ee6f7748961985"/>
+</record_update>

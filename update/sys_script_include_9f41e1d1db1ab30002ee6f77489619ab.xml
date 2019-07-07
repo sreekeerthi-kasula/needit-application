@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_370279_needit2.changing_priority_1</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>changing_priority_1</name>
+        <script><![CDATA[function changing_priority_1(){
+	var myObj=new GlideRecord('x_370279_needit2_needit');
+	myObj.setValue('priority',4);
+	myObj.updateMultiple();
+	gs.addInfoMessage('priority updated to'+4);
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 15:29:03</sys_created_on>
+        <sys_id>9f41e1d1db1ab30002ee6f77489619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>changing_priority_1</sys_name>
+        <sys_package display_value="needit2" source="x_370279_needit2">4735c613dbcaf30002ee6f77489619d8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="needit2">4735c613dbcaf30002ee6f77489619d8</sys_scope>
+        <sys_update_name>sys_script_include_9f41e1d1db1ab30002ee6f77489619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-26 15:29:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
