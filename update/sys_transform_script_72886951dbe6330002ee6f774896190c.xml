@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Import Historic NeedIt Data">02c2295ddba6330002ee6f77489619aa</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+ if (action == 'insert') {
+		ignore = true;
+	}
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-09 02:13:52</sys_created_on>
+        <sys_id>72886951dbe6330002ee6f774896190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="needit2" source="x_370279_needit2">4735c613dbcaf30002ee6f77489619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="needit2">4735c613dbcaf30002ee6f77489619d8</sys_scope>
+        <sys_update_name>sys_transform_script_72886951dbe6330002ee6f774896190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-09 02:13:52</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>needit</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>needit</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">2dc855b47420330078509adcc48c8789</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-07-08 13:50:16</sys_created_on>
+        <sys_id>e47eba89db22330002ee6f7748961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>needit</sys_name>
+        <sys_package display_value="needit2" source="x_370279_needit2">4735c613dbcaf30002ee6f77489619d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="needit2">4735c613dbcaf30002ee6f77489619d8</sys_scope>
+        <sys_update_name>sys_wizard_answer_e47eba89db22330002ee6f7748961968</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-07-08 13:50:16</sys_updated_on>
+        <table/>
+        <target_url>x_370279_needit2_needit.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
